@@ -1,0 +1,389 @@
+{
+    "1": {
+        "circuit": "1",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Basement bathroom",
+                "description": "Lights, outlets"
+            }
+        ]
+    },
+    "2": {
+        "circuit": "2",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Connor's room",
+                "description": "Outlets along wall shared with master"
+            },
+            {
+                "location": "Living room",
+                "description": ""
+            },
+            {
+                "location": "Office",
+                "description": "Ceiling fan/light"
+            }
+        ]
+    },
+    "3": {
+        "circuit": "3",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Guest room",
+                "description": "Back wall outlet"
+            }
+        ]
+    },
+    "4": {
+        "circuit": "4",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Outlets"
+            }
+        ]
+    },
+    "5": {
+        "circuit": "5",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Outlets"
+            }
+        ]
+    },
+    "6": {
+        "circuit": "6",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Connor's room",
+                "description": "Outlet on wall shared with Cara's room"
+            }
+        ]
+    },
+    "7": {
+        "circuit": "7",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Basement",
+                "description": "Recessed lights"
+            }
+        ]
+    },
+    "8": {
+        "circuit": "8",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Office",
+                "description": "Outlet on street-side wall"
+            },
+            {
+                "location": "Game room",
+                "description": "Outlets along bathroom and external walls"
+            },
+            {
+                "location": "Sunroom",
+                "description": "Outlet outside office, hanging lights, office-side ceiling fan"
+            }
+        ]
+    },
+    "9": {
+        "circuit": "9",
+        "amps": 20,
+        "locations": []
+    },
+    "10": {
+        "circuit": "10",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Master bathroom",
+                "description": "Heated towel rack outlet"
+            }
+        ]
+    },
+    "11/12": {
+        "circuit": "11/12",
+        "amps": 40,
+        "locations": [
+            {
+                "location": "Laundry room",
+                "description": "Washer, dryer"
+            }
+        ]
+    },
+    "13/14": {
+        "circuit": "13/14",
+        "amps": 30,
+        "locations": []
+    },
+    "15": {
+        "circuit": "15",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Basement",
+                "description": "Refrigerator outlet"
+            }
+        ]
+    },
+    "16": {
+        "circuit": "16",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Basement",
+                "description": "TV wall outlets"
+            }
+        ]
+    },
+    "17": {
+        "circuit": "17",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Master bedroom",
+                "description": "Neighbor wall outlets, little closet outlets/light, makeup station"
+            }
+        ]
+    },
+    "18": {
+        "circuit": "18",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Outlets"
+            }
+        ]
+    },
+    "19": {
+        "circuit": "19",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Lights"
+            }
+        ]
+    },
+    "22": {
+        "circuit": "22",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Guest room",
+                "description": "Ceiling light"
+            },
+            {
+                "location": "Main bathroom",
+                "description": "Lights, outlet"
+            },
+            {
+                "location": "Main hallway",
+                "description": "Light"
+            },
+            {
+                "location": "Game room",
+                "description": "Ceiling light / fan"
+            }
+        ]
+    },
+    "23": {
+        "circuit": "23",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Living room",
+                "description": "Front side switch to sunroom center light"
+            }
+        ]
+    },
+    "24": {
+        "circuit": "24",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Living room",
+                "description": "Front wall and floor outlets"
+            },
+            {
+                "location": "Sunroom",
+                "description": "Living room side outlet"
+            }
+        ]
+    },
+    "25": {
+        "circuit": "25",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Utility room",
+                "description": "Workbench"
+            }
+        ]
+    },
+    "26": {
+        "circuit": "26",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Utility room",
+                "description": "Dehumidifier outlet"
+            }
+        ]
+    },
+    "27": {
+        "circuit": "27",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Utility room",
+                "description": "Main light switch. Note said heating/cooling, which probably meant thermostat."
+            }
+        ]
+    },
+    "28": {
+        "circuit": "28",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Garbage disposal"
+            }
+        ]
+    },
+    "29": {
+        "circuit": "29",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Cara's room",
+                "description": "Ceiling light, outlets"
+            },
+            {
+                "location": "Kids bathroom",
+                "description": "Ceiling light, outlets"
+            },
+            {
+                "location": "Laundry room",
+                "description": "Ceiling light, outlets"
+            },
+            {
+                "location": "Master bathroom",
+                "description": "Ceiling light/fan, outlets"
+            },
+            {
+                "location": "Master bedroom",
+                "description": "Ceiling light, closet-side wall outlets"
+            },
+            {
+                "location": "Master closet",
+                "description": "Ceiling light, outlet"
+            }
+        ]
+    },
+    "30": {
+        "circuit": "30",
+        "amps": 15,
+        "locations": []
+    },
+    "31": {
+        "circuit": "31",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Microwave"
+            }
+        ]
+    },
+    "32": {
+        "circuit": "32",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Connor's room back closet",
+                "description": "Light"
+            }
+        ]
+    },
+    "33": {
+        "circuit": "33",
+        "amps": 20,
+        "locations": []
+    },
+    "34": {
+        "circuit": "34",
+        "amps": 20,
+        "locations": []
+    },
+    "35": {
+        "circuit": "35",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Range"
+            }
+        ]
+    },
+    "36": {
+        "circuit": "36",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Office",
+                "description": "Side window outlet, living room wall outlet"
+            }
+        ]
+    },
+    "37": {
+        "circuit": "37",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Living room",
+                "description": "Fireplace receptacle"
+            }
+        ]
+    },
+    "38": {
+        "circuit": "38",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Refrigerator"
+            }
+        ]
+    },
+    "39": {
+        "circuit": "39",
+        "amps": 20,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Dish washer"
+            }
+        ]
+    },
+    "40": {
+        "circuit": "40",
+        "amps": 15,
+        "locations": [
+            {
+                "location": "Kitchen",
+                "description": "Lights, Basement lights"
+            }
+        ]
+    }
+}
