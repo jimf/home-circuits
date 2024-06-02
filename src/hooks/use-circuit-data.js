@@ -37,21 +37,18 @@ const compareInt = (a, b) => parseInt(a, 10) - parseInt(b, 10);
 const compareAlpha = (a, b) => a.localeCompare(b);
 
 const columnSorters = {
-    circuit: compareInt,
-    amps: compareInt,
-    location: compareAlpha,
-    description: compareAlpha,
+    circuit: (a, b) => compareInt(a.circuit, b.circuit) || compareAlpha(a.location, b.location),
+    amps: (a, b) => compareInt(a.amps, b.amps) || columnSorters.circuit(a, b),
+    location: (a, b) => compareAlpha(a.location, b.location) || compareInt(a.circuit, b.circuit),
 };
 
 const compare = ({ sortColumn, sortDirection }) => (a, b) => {
-    const columnA = a[sortColumn];
-    const columnB = b[sortColumn];
-    const cmp = columnSorters[sortColumn](columnA, columnB);
+    const cmp = columnSorters[sortColumn](a, b);
     return sortDirection === 'asc' ? cmp : -cmp;
 };
 
 const useCircuitData = ({
-    initialSortColumn = null,
+    initialSortColumn = 'circuit',
     initialSortDirection = 'asc',
     initialFilterText = '',
 } = {}) => {
@@ -74,23 +71,19 @@ const useCircuitData = ({
 
     const toggleSortColumn = React.useCallback(column => {
         if (column === sortColumn) {
-            if (sortDirection === 'asc') {
-                setSortDirection('desc');
-            } else {
-                setSortColumn(null);
-            }
+            setSortDirection(current => current === 'asc' ? 'desc' : 'asc');
         } else {
             setSortColumn(column);
             setSortDirection('asc');
         }
-    }, [sortColumn, sortDirection]);
+    }, [sortColumn]);
 
     return {
         data,
         filterText,
         setFilterText,
         sortColumn,
-        sortDirection: sortColumn ? sortDirection : null,
+        sortDirection,
         toggleSortColumn,
     };
 };

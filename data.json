@@ -63,7 +63,11 @@
         "locations": [
             {
                 "location": "Connor's room",
-                "description": "Outlet on wall shared with Cara's room"
+                "description": "Outlet on wall shared with Cara's room, outlet on external wall"
+            },
+            {
+                "location": "Connor's room front closet",
+                "description": "Light switch"
             }
         ]
     },
@@ -194,6 +198,14 @@
             {
                 "location": "Game room",
                 "description": "Ceiling light / fan"
+            },
+            {
+                "location": "Stairs to upper floor",
+                "description": "Light switch"
+            },
+            {
+                "location": "Upstairs hallway",
+                "description": "Ceiling light"
             }
         ]
     },

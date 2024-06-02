@@ -37,11 +37,17 @@ const Table = () => {
     return (
         <>
             <div>
-                <label htmlFor="table-filter-text">
-                    Filter table
+                <label className="sr-only" htmlFor="table-filter-text">
+                    Search
                 </label>
                 <div className="flex">
-                    <input id="table-filter-text" value={filterText} onChange={e => setFilterText(e.target.value)} />
+                    <input
+                        className="w-full"
+                        id="table-filter-text"
+                        onChange={e => setFilterText(e.target.value)}
+                        placeholder="Search"
+                        value={filterText}
+                    />
                     <button type="button" onClick={() => setFilterText('')}>Clear</button>
                 </div>
             </div>
